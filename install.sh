@@ -60,18 +60,18 @@ done=false
 
 output "Pterodactyl installation script @ $SCRIPT_VERSION"
 output
-output "https://github.com/icedmoca/pterodactyl-install-script"
+output "https://github.com/minenite/pterodactyl-install-script"
 output
 output "This script is not associated with the official Pterodactyl Project."
 
 output
 
 panel() {
-  bash <(curl -s https://raw.githubusercontent.com/icedmoca/pterodactyl-install-script/$SCRIPT_VERSION/install-panel.sh)
+  bash <(curl -s https://raw.githubusercontent.com/minenite/pterodactyl-install-script/$SCRIPT_VERSION/install-panel.sh)
 }
 
 wings() {
-  bash <(curl -s https://raw.githubusercontent.com/icedmoca/pterodactyl-install-script/$SCRIPT_VERSION/install-wings.sh)
+  bash <(curl -s https://raw.githubusercontent.com/minenite/pterodactyl-install-script/$SCRIPT_VERSION/install-wings.sh)
 }
 
 while [ "$done" == false ]; do
