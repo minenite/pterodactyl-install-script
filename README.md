@@ -11,7 +11,7 @@ Lightweight installation script for game server manager pterodactyl
 To use the installation scripts, simply run this command as root. The script will ask you whether you would like to install just the panel, just the daemon or both.
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/icedmoca/pterodactyl-install-script/master/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/minenite/pterodactyl-install-script/master/install.sh)
 ```
 
 ### Supported panel operating systems and webservers
@@ -22,11 +22,5 @@ bash <(curl -s https://raw.githubusercontent.com/icedmoca/pterodactyl-install-sc
 |                  | 16.04   | :red_circle:       |             | :red_circle:       |
 |                  | 18.04   | :white_check_mark: | 7.4         | :white_check_mark: |
 |                  | 20.04   | :white_check_mark: | 7.4         | :white_check_mark: |
-| Debian           | 8       | :red_circle:       |             | :red_circle:       |
-|                  | 9       | :white_check_mark: | 7.4         | :white_check_mark: |
-|                  | 10      | :white_check_mark: | 7.4         | :white_check_mark: |
-| CentOS           | 6       | :red_circle:       |             | :red_circle:       |
-|                  | 7       | :white_check_mark: | 7.4         | :white_check_mark: |
-|                  | 8       | :white_check_mark: | 7.4         | :white_check_mark: |
 
 _Firewall setup is optional depending on experience_
